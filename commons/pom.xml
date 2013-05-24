@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.zavakid.dependency</groupId>
+    <artifactId>dependency.parent</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+  <artifactId>dependency.commons</artifactId>
+  <name>dependency.commons</name>
+  <packaging>pom</packaging>
+
+  <properties>
+    <commons_lang3_version>3.1</commons_lang3_version>
+    <commons_lang_version>2.6</commons_lang_version>
+    <commons_collections_version>3.2.1</commons_collections_version>
+    <commons_math_version>2.1</commons_math_version>
+    <commons_net_version>1.4.1</commons_net_version>
+    <commons_el_version>1.0</commons_el_version>
+    <commons_configuration_version>1.9</commons_configuration_version>
+    <commons_beanutils_version>1.8.3</commons_beanutils_version>
+    <commons-io_version>2.4</commons-io_version>
+
+    <guava_version>14.0.1</guava_version>
+    <joda-time_version>2.2</joda-time_version>
+    <dozer_version>5.4.0</dozer_version>
+  </properties>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-lang3</artifactId>
+        <version>${commons_lang3_version}</version>
+      </dependency>
+      <dependency>
+        <groupId>commons-lang</groupId>
+        <artifactId>commons-lang</artifactId>
+        <version>${commons_lang_version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.google.guava</groupId>
+        <artifactId>guava</artifactId>
+        <version>${guava_version}</version>
+      </dependency>
+      <dependency>
+        <groupId>commons-collections</groupId>
+        <artifactId>commons-collections</artifactId>
+        <version>${commons_collections_version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-math</artifactId>
+        <version>${commons_math_version}</version>
+      </dependency>
+      <dependency>
+        <groupId>commons-net</groupId>
+        <artifactId>commons-net</artifactId>
+        <version>${commons_net_version}</version>
+      </dependency>
+      <dependency>
+        <groupId>commons-el</groupId>
+        <artifactId>commons-el</artifactId>
+        <version>${commons_el_version}</version>
+      </dependency>
+      <dependency>
+        <groupId>commons-configuration</groupId>
+        <artifactId>commons-configuration</artifactId>
+        <version>${commons_configuration_version}</version>
+      </dependency>
+      <dependency>
+        <groupId>commons-beanutils</groupId>
+        <artifactId>commons-beanutils</artifactId>
+        <version>${commons_beanutils_version}</version>
+      </dependency>
+      <dependency>
+        <groupId>commons-io</groupId>
+        <artifactId>commons-io</artifactId>
+        <version>${commons-io_version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>joda-time</groupId>
+        <artifactId>joda-time</artifactId>
+        <version>${joda-time_version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>net.sf.dozer</groupId>
+        <artifactId>dozer</artifactId>
+        <version>${dozer_version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+</project>

@@ -21,6 +21,7 @@
     <module>log</module>
     <module>jetty</module>
     <module>hibernate</module>
+    <module>commons</module>
   </modules>
 
 </project>
