@@ -1,0 +1,6 @@
+*.releaseBackup
+.classpath
+.project
+*.swp
+*.bak
+*.~
