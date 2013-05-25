@@ -9,7 +9,7 @@
 
   <groupId>com.zavakid.dependency</groupId>
   <artifactId>dependency.parent</artifactId>
-  <version>1.1</version>
+  <version>1.2-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>dependency.parent</name>
@@ -36,7 +36,7 @@
     <url>git@github.com:zavakid/dependency.git</url>
     <connection>scm:git:git@github.com:zavakid/dependency.git</connection>
     <developerConnection>scm:git:git@github.com:zavakid/dependency.git</developerConnection>
-    <tag>dependency.parent-1.1</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <modules>
