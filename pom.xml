@@ -46,6 +46,7 @@
     <module>jetty</module>
     <module>hibernate</module>
     <module>commons</module>
+    <module>test</module>
   </modules>
 
   <build>
