@@ -20,6 +20,7 @@
     <commons_configuration_version>1.9</commons_configuration_version>
     <commons_beanutils_version>1.8.3</commons_beanutils_version>
     <commons-io_version>2.4</commons-io_version>
+    <commons-exec_version>1.1</commons-exec_version>
 
     <guava_version>14.0.1</guava_version>
     <joda-time_version>2.2</joda-time_version>
@@ -78,6 +79,11 @@
         <groupId>commons-io</groupId>
         <artifactId>commons-io</artifactId>
         <version>${commons-io_version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-exec</artifactId>
+        <version>${commons-exec_version}</version>
       </dependency>
 
       <dependency>
