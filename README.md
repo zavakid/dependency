@@ -1,4 +1,4 @@
-this is my dependency lib
+maven dependency made easy
 
 ### spring
 
