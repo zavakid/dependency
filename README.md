@@ -3,7 +3,7 @@ maven dependency made easy
 ### spring
 
 ```
-<spring_version>3.2.2.RELEASE</spring_version>
+<spring_version>3.2.3.RELEASE</spring_version>
 <spring_security_version>3.1.4.RELEASE</spring_security_version>
 ```
 
@@ -28,6 +28,7 @@ maven dependency made easy
 <commons-exec_version>1.1</commons-exec_version>
 <commons-codec>1.8</commons-codec>
 <commons-fileupload_version>1.3</commons-fileupload_version>
+<commons-launcher_version>1.1</commons-launcher_version>
 <guava_version>14.0.1</guava_version>
 <joda-time_version>2.2</joda-time_version>
 <dozer_version>5.4.0</dozer_version>
@@ -37,15 +38,15 @@ maven dependency made easy
 
 ```
 <slf4j_version>1.7.5</slf4j_version>
-<logback_version>1.0.11</logback_version>
+<logback_version>1.0.13</logback_version>
 <dummy_jcl_version>99.0-does-not-exist</dummy_jcl_version>
 ```
 
 ### hibernate
 
 ```
-<hibernate_version>4.1.11.Final</hibernate_version>
-<hibernate-validator_version>5.0.0.Final</hibernate-validator_version>
+<hibernate_version>4.2.3.Final</hibernate_version>
+<hibernate-validator_version>5.0.1.Final</hibernate-validator_version>
 ```
 
 ### jetty

@@ -12,7 +12,7 @@
 
   <properties>
     <slf4j_version>1.7.5</slf4j_version>
-    <logback_version>1.0.11</logback_version>
+    <logback_version>1.0.13</logback_version>
     <dummy_jcl_version>99.0-does-not-exist</dummy_jcl_version>
   </properties>
 

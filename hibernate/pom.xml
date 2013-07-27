@@ -11,8 +11,8 @@
   <packaging>pom</packaging>
 
   <properties>
-    <hibernate_version>4.1.11.Final</hibernate_version>
-    <hibernate-validator_version>5.0.0.Final</hibernate-validator_version>
+    <hibernate_version>4.2.3.Final</hibernate_version>
+    <hibernate-validator_version>5.0.1.Final</hibernate-validator_version>
   </properties>
 
   <dependencyManagement>
