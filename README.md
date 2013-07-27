@@ -10,7 +10,7 @@ maven dependency made easy
 ### spring.data
 
 ```
-<spring-data_version>1.3.1.RELEASE</spring-data_version>
+<spring-data_version>1.3.4.RELEASE</spring-data_version>
 ```
 
 ### commons
