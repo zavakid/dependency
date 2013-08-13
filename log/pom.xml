@@ -4,7 +4,7 @@
   <parent>
     <groupId>com.zavakid.dependency</groupId>
     <artifactId>dependency.parent</artifactId>
-    <version>1.3</version>
+    <version>1.4-SNAPSHOT</version>
   </parent>
   <artifactId>dependency.log</artifactId>
   <name>dependency.log</name>
