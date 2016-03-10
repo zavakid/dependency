@@ -13,7 +13,7 @@
   <properties>
     <commons_lang3_version>3.1</commons_lang3_version>
     <commons_lang_version>2.6</commons_lang_version>
-    <commons_collections_version>3.2.1</commons_collections_version>
+    <commons_collections_version>3.2.2</commons_collections_version>
     <commons_math_version>2.1</commons_math_version>
     <commons_net_version>1.4.1</commons_net_version>
     <commons_el_version>1.0</commons_el_version>
